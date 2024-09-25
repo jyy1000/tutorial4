@@ -8,6 +8,6 @@ jobs:
 
     steps:
 
-      # 运行测试
-      - name: Run Maven build
+      # Run tests
+      - name: Run tests
         run: mvn clean test
